@@ -1,0 +1,56 @@
+PÁGINA DE VENDAS — NINHO MIÚDO
+================================
+
+COMO TROCAR O LINK DA KIWIFY
+
+1. Abra o arquivo script.js.
+2. Localize esta linha no começo do arquivo:
+
+   const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/SEU_CHECKOUT";
+
+3. Substitua o endereço entre aspas pelo link real do checkout.
+4. Salve o arquivo.
+
+Todos os botões “Adquirir agora” e “Quero começar hoje” serão atualizados juntos.
+
+As imagens já estão configuradas para preservar a proporção original em
+computadores e celulares. Não remova as regras object-fit e height: auto do CSS.
+
+
+COMO ATIVAR A OFERTA DE LANÇAMENTO
+
+1. Abra o arquivo script.js.
+2. Localize esta linha:
+
+   const PROMOTION_ENABLED = false;
+
+3. Troque false por true para ativar o preço de R$ 19,90 e iniciar a contagem
+   de quatro dias. Quando o tempo acabar, o site volta automaticamente para
+   o preço normal de R$ 29,90.
+
+Por padrão, os quatro dias começam na primeira visita de cada aparelho. Para
+que a promoção termine no mesmo momento para todas as pessoas, preencha também:
+
+   const PROMOTION_FIXED_END_DATE = "2026-09-20T23:59:59-03:00";
+
+Substitua o exemplo pela data e pelo horário reais do fim do lançamento.
+
+
+COMO PUBLICAR NO GITHUB PAGES
+
+1. Crie um repositório no GitHub.
+2. Envie todos os arquivos desta pasta para a raiz do repositório.
+3. Abra Settings > Pages.
+4. Em Source, escolha “Deploy from a branch”.
+5. Selecione a branch main e a pasta / (root).
+6. Clique em Save.
+
+
+ESTRUTURA
+
+index.html  — conteúdo da página
+style.css   — identidade visual e versão responsiva
+script.js   — checkout, menu, animações e dúvidas
+assets/     — imagens usadas na página
+
+Não altere os nomes dos arquivos da pasta assets sem atualizar o index.html.

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0C3D55">
+  <meta name="description" content="Bichinhos do Brasil — livro digital com 30 páginas, 18 animais e atividades para crianças de 3 a 5 anos.">
+  <title>Bichinhos do Brasil | Ninho Miúdo</title>
+  <link rel="icon" type="image/jpeg" href="assets/logo-oficial-original.jpeg">
+  <link rel="preload" as="image" href="assets/hero-horizontal.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header" id="inicio">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Ninho Miúdo — início">
+        <img src="assets/logo-horizontal.png" width="286" height="64" alt="Ninho Miúdo">
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">MENU</button>
+      <nav class="nav" id="menu" aria-label="Navegação principal">
+        <a href="#inicio">INÍCIO</a>
+        <a href="#produto">PRODUTO</a>
+        <a href="#beneficios">BENEFÍCIOS</a>
+        <a href="#duvidas">FAQ</a>
+      </nav>
+      <a class="btn btn-coral checkout-link header-cta" href="#oferta">ADQUIRIR AGORA</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <h1>BRINCAR TAMBÉM É <span>APRENDER.</span></h1>
+          <div class="coral-line" aria-hidden="true"></div>
+          <p class="hero-meta">30 PÁGINAS <b>•</b> 18 ANIMAIS <b>•</b> 3 A 5 ANOS</p>
+          <p class="hero-description">Um livro de colorir e atividades para transformar pequenos momentos em grandes descobertas.</p>
+          <a class="btn btn-teal checkout-link mobile-hero-cta" href="#oferta">QUERO COMEÇAR HOJE</a>
+        </div>
+        <div class="hero-media reveal">
+          <img src="assets/hero-horizontal.png" width="492" height="355" alt="Livro Bichinhos do Brasil com criança realizando uma atividade">
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-strip" aria-label="Benefícios principais">
+      <div class="container skills-row">
+        <article><img src="assets/icon-coordenacao.png" width="70" height="70" alt=""><strong>COORDENAÇÃO</strong></article>
+        <article><img src="assets/icon-atencao.png" width="70" height="70" alt=""><strong>ATENÇÃO</strong></article>
+        <article><img src="assets/icon-criatividade.png" width="70" height="70" alt=""><strong>CRIATIVIDADE</strong></article>
+      </div>
+    </section>
+
+    <section class="product" id="produto">
+      <div class="container product-inner">
+        <div class="landscape-media reveal">
+          <img src="assets/produto-horizontal.png" width="535" height="332" alt="Crianças colorindo páginas do livro Bichinhos do Brasil com acompanhamento de uma adulta" loading="lazy">
+        </div>
+        <div class="product-copy reveal">
+          <h2>BICHINHOS <span>DO BRASIL</span></h2>
+          <div class="coral-line small" aria-hidden="true"></div>
+          <p class="product-meta">30 PÁGINAS <b>•</b> 18 ANIMAIS <b>•</b> 3 A 5 ANOS</p>
+          <p>Um livro de colorir e atividades para as crianças explorarem a natureza brasileira enquanto desenvolvem habilidades importantes, de forma leve e divertida.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="beneficios">
+      <div class="container">
+        <h2>APRENDER BRINCANDO FAZ TODA A DIFERENÇA</h2>
+        <div class="benefit-grid">
+          <article class="benefit-card cream reveal"><img src="assets/icon-coordenacao.png" width="70" height="70" alt=""><strong>ESTIMULA<br>A COORDENAÇÃO</strong></article>
+          <article class="benefit-card pink reveal"><img src="assets/icon-atencao.png" width="70" height="70" alt=""><strong>DESENVOLVE<br>A ATENÇÃO</strong></article>
+          <article class="benefit-card green reveal"><img src="assets/icon-criatividade.png" width="70" height="70" alt=""><strong>INCENTIVA<br>A CRIATIVIDADE</strong></article>
+          <article class="benefit-card blue reveal"><img src="assets/icon-natureza.png" width="70" height="70" alt=""><strong>CONECTA<br>COM A NATUREZA</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer" id="oferta">
+      <div class="container offer-inner">
+        <div class="offer-media reveal">
+          <img src="assets/oferta-horizontal.png" width="455" height="308" alt="Criança colorindo atividade do Bichinhos do Brasil" loading="lazy">
+        </div>
+        <div class="offer-copy reveal">
+          <span class="available" id="offer-badge">JÁ DISPONÍVEL</span>
+          <h2>BICHINHOS <span>DO BRASIL</span></h2>
+          <div class="promotion-panel" id="promotion-panel" hidden>
+            <strong>OFERTA DE LANÇAMENTO TERMINA EM</strong>
+            <div class="countdown" role="timer" aria-live="polite" aria-label="Tempo restante da promoção">
+              <span><b id="count-days">04</b><small>DIAS</small></span>
+              <span><b id="count-hours">00</b><small>HORAS</small></span>
+              <span><b id="count-minutes">00</b><small>MIN</small></span>
+              <span><b id="count-seconds">00</b><small>SEG</small></span>
+            </div>
+          </div>
+          <span class="regular-price-label" id="regular-price-label">VALOR DO PRODUTO</span>
+          <span class="old-price" id="old-price" hidden>DE R$ 29,90 POR</span>
+          <div class="price">R$ <strong data-product-price>29,90</strong></div>
+          <p>30 PÁGINAS <b>•</b> 18 ANIMAIS <b>•</b> 3 A 5 ANOS</p>
+          <a class="btn btn-cream checkout-link" href="#oferta">ADQUIRIR AGORA</a>
+          <small>Pagamento processado pela Kiwify</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="duvidas">
+      <div class="container faq-inner">
+        <h2>PERGUNTAS<br>FREQUENTES</h2>
+        <div class="accordion">
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Como recebo o material?</span><b>⌄</b></button>
+            <div class="faq-answer"><p>Após a confirmação do pagamento, a Kiwify disponibiliza as instruções de acesso ao arquivo digital em PDF.</p></div>
+          </article>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Posso imprimir quantas vezes quiser?</span><b>⌄</b></button>
+            <div class="faq-answer"><p>Você pode imprimir as atividades para uso pessoal da sua família. O arquivo não pode ser compartilhado ou revendido.</p></div>
+          </article>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Para qual idade é indicado?</span><b>⌄</b></button>
+            <div class="faq-answer"><p>O material foi pensado para crianças de 3 a 5 anos, sempre com supervisão de um adulto.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo" aria-label="Ninho Miúdo">
+        <img src="assets/logo-simbolo.png" width="90" height="64" alt="">
+        <strong>NINHO MIÚDO</strong>
+      </div>
+      <p>PEQUENOS MOMENTOS. GRANDES DESCOBERTAS.</p>
+      <small>© <span id="year"></span> Ninho Miúdo. Produto digital para uso pessoal.</small>
+    </div>
+  </footer>
+
+  <a class="mobile-buy checkout-link" href="#oferta"><span><small id="mobile-price-label">VALOR DO PRODUTO</small><strong>R$ <span data-product-price>29,90</span></strong></span><b>ADQUIRIR AGORA</b></a>
+  <noscript><div class="noscript">Ative o JavaScript para usar todos os recursos desta página.</div></noscript>
+</body>
+</html>
