@@ -2,7 +2,7 @@ document.documentElement.classList.add("js");
 
 // Cole abaixo o link final do checkout da Kiwify.
 // Exemplo: https://pay.kiwify.com.br/AbCd123
-const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/SEU_CHECKOUT";
+const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/Zte7u1P";
 
 // CONTROLE DA OFERTA DE LANÇAMENTO
 // Troque false por true para iniciar a promoção de 4 dias.
