@@ -6,7 +6,7 @@ const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/Zte7u1P";
 
 // CONTROLE DA OFERTA DE LANÇAMENTO
 // Troque false por true para iniciar a promoção de 4 dias.
-const PROMOTION_ENABLED = false;
+const PROMOTION_ENABLED = true;
 const PROMOTION_DURATION_DAYS = 4;
 
 // Opcional: preencha para todos os visitantes terminarem juntos.
